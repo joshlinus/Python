@@ -43,3 +43,45 @@ myvar2 = "John"
 #2myvar = "John"
 #my-var = "John" #NO DASHES
 #my var = "John"
+
+#assign multiple values
+x, y, z = "Cat", "Hat", "Mat"
+print (x)
+print (y)
+print (z)
+
+#assign multiple variables
+B = N = M = "Letters"
+print (B)
+print (N)
+print (M)
+
+#Global variables
+x = "the greatest"
+
+def myfunc():
+    print("I am " + x)
+
+myfunc()
+
+#Global variables pt 2
+x = "the greatest"
+
+def myfunc2():
+    x = "AWESOME"
+    print("I am " + x)
+
+myfunc2()
+
+
+#Global variables pt 3
+x = "the greatest"
+
+def myfunc3():
+    global x 
+    x = "AWESOME"
+    print("I am " + x)
+
+myfunc3()
+
+\a
